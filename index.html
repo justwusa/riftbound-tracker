@@ -13,6 +13,9 @@
 <div>
   <button onclick="showTab('cards')">Alle Karten</button>
   <button onclick="showTab('decks')">Decks</button>
+  <input id="search" placeholder="Suche..." oninput="render()">
+<button onclick="addCard()">Karte hinzufügen</button>
+<p id="stats"></p>
 </div>
 
 <div id="cardsTab">
